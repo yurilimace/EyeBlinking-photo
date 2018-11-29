@@ -1,0 +1,17 @@
+Para rodar o programa é necessário ter instalado o Anaconda segue o link abaixo para 
+download:
+https://www.anaconda.com/download/
+ 
+depois setar o anaconda como variavel de ambiente.
+
+agora configurar um ambiente Dlib + python usando o anaconda
+1 - criar o ambiente rodando o comando : conda create --name nomedoseuambiente
+2 - executar o ambiente : activate nomedoseuambiente
+3 - Instalar o dblib : conda install -c conda-forge dlib
+4 - instalar o imutils : pip install imutils
+5 - instalar o openvc : conda install -c conda-forge opencv
+6 - instalar o matplotlib : conda install -c conda-forge matplotlib 
+
+
+site fonte para inicializar o ambiente do anaconda:
+https://medium.com/@suzana.svm/configurando-o-ambiente-dlib-python-guia-para-iniciantes-81cdcffc937e
